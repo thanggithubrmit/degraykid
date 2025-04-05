@@ -28,3 +28,12 @@ h1 {
 .container .content ul li {
     padding: 5px 20px;
 }
+@media screen and (max-width: 430px ) {
+    .container .content ul {
+        width: 100%;
+        padding: 0;
+    }
+    .container .content ul li {
+        padding: 20px 5px;
+    }
+}
